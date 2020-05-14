@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .section h1 {
+
+        text-align: center;
+        font-size: 6rem;
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        opacity: 0.7;
+        background-color: rgb(231, 222, 207);
+
+    }
+
+    .section h2 {
+
+        text-align: center;
+        font-size: 6rem;
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        opacity: 10;
+        background-color: rgba(212, 140, 44, 0.432);
+    }
+
+
+    .section {
+        position: relative;
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .video-container {
+        position: absolute;
+
+    }
+
+    .section a {
+        text-align: center;
+        font-size: 6rem;
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        opacity: 10;
+        text-decoration: none;
+        background-color: rgba(201, 45, 45, 0.473);
+        color: black;
+
+        
+</style>
+
+<body>
+
+    <div class="section">
+        <h1>Music Fest</h1>
+        <h2>Booking Start </h2>
+        <a href="#">Hurry up!...</a>
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video autoplay loop muted>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
